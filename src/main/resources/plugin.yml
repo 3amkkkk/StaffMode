@@ -1,0 +1,13 @@
+name: StaffMode
+version: '${project.version}'
+main: nl.amk.staffmode.StaffMode
+api-version: '1.21'
+commands:
+  staffmode:
+    description: Toggle staff mode
+    usage: /staffmode
+    aliases: [sm]
+permissions:
+  staffmode.use:
+    description: Allows toggling staff mode
+    default: op

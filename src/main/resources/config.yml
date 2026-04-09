@@ -1,0 +1,16 @@
+database:
+  host: "localhost"
+  port: 3306
+  database: "minecraft"
+  username: "root"
+  password: ""
+  useSSL: false
+  allowPublicKeyRetrieval: true
+  pool:
+    maximumPoolSize: 10
+    minimumIdle: 2
+    connectionTimeoutMs: 10000
+    idleTimeoutMs: 60000
+    maxLifetimeMs: 1800000
+    leakDetectionThresholdMs: 0
+
